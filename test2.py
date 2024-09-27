@@ -2,10 +2,10 @@
 
 
 #global variables
-name = "Tyrell"
+name = "Dave"
 
 
-#functions
+functions
 def print_header():
     print("-----------")
     print("  Test 2     ")

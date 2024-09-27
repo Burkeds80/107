@@ -2,9 +2,9 @@
 def about_me():
     # dictionary
     me = {
-        "first": "Tyrell",
-        "last": "Patton",
-        "age": 39
+        "first": "Dave",
+        "last": "Burke",
+        "age": 43
 }
 
     print(me)
@@ -15,11 +15,11 @@ def about_me():
     print(me["age"])
 
     # add new elements
-    me["email"] = "patton@example"
+    me["email"] = "Burke@example"
     print(me)
 
     #update existing 
-    me["age"] = 39
+    me["age"] = 43
 
     #check if key exist, before reading
     if"preferred_color" in me:
